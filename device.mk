@@ -42,6 +42,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.target.rc
 
+# GoogleCamera
+PRODUCT_PACKAGES += \
+    GoogleCameraMod
+
 # Hostapd
 PRODUCT_PACKAGES += \
     android.hardware.wifi.hostapd-V1.0-java
