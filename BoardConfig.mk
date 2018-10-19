@@ -18,6 +18,7 @@ TARGET_HW_DISK_ENCRYPTION := true
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 TARGET_KERNEL_CONFIG := beryllium_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/beryllium
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/beryllium/BoardConfigVendor.mk
