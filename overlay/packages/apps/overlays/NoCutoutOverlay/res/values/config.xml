@@ -34,4 +34,8 @@
     <dimen name="quick_qs_offset_height">40dp</dimen>
     <!-- Total height of QQS (quick_qs_offset_height + 128) -->
     <dimen name="quick_qs_total_height">168dp</dimen>
+
+    <!-- Whether or not we should show the option to show battery percentage -->
+    <bool name="config_battery_percentage_setting_available">true</bool>
+
 </resources>
