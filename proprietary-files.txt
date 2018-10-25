@@ -47,6 +47,14 @@ lib/libdpmnsrm.so
 lib/libdpmtcm.so
 -priv-app/dpmserviceapp/dpmserviceapp.apk
 
+# FM
+lib/fm_helium.so
+lib/libfm-hci.so
+lib/vendor.qti.hardware.fm@1.0.so
+lib64/fm_helium.so
+lib64/libfm-hci.so
+lib64/vendor.qti.hardware.fm@1.0.so
+
 # Hostapd
 -app/hostapd/hostapd.apk|6250e7f791747f4f738f6a737050cabac42686e6
 etc/permissions/hostapd.xml|57dc11a9802a2692c3369fc1067df56f38d1fcfe
